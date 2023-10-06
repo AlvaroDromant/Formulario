@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(232, 239, 241);
+    text-align: center;
+}
+
+
+form{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 50%;
+    padding: 5%;
+    background-color: white;
+    margin: auto;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(40, 127, 226);
+    color: white;
+}
